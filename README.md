@@ -2,6 +2,29 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0.
 
+So, perhaps did you hear about CKeditor.
+
+First, you need to install :
+
+yarn add ng2-ckeditor --dev
+
+Or;
+
+npm install ng2-ckeditor --save-dev
+
+
+Add source code script in your index.html :
+
+<script src="https://cdn.ckeditor.com/4.5.11/full/ckeditor.js"></script>
+
+Then add a CKEditorModule module.
+Finaly some configuration in the component.
+
+Demo: 
+
+yarn start
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
