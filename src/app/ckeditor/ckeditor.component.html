@@ -1,0 +1,8 @@
+<p>
+    ckeditor works!
+</p>
+<!-- attributes dans la balise Ckeditor [config]="{uiColor: '#99000'}" 
+(change)="onChange($event)" (ready)="onReady($event)" (focus)="onFocus($event)" (blur)="onBlur($event)"
+-->
+<ckeditor [(ngModel)]="ckeditorContent" [readonly]="false" debounce="500" [config]="{uiColor: '#87CEEB'}" (change)="onChange($event)">
+</ckeditor>
