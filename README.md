@@ -24,6 +24,8 @@ Demo:
 
 yarn start
 
+![screenshot from 2017-08-11 01-09-15](https://user-images.githubusercontent.com/12816334/29196003-061984c2-7e32-11e7-8f74-09a862b1d068.png)
+
 
 ## Development server
 
